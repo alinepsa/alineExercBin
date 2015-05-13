@@ -43,10 +43,10 @@ void ArquivoBinario(FILE *arq, char inform[1000]){
 	//Segue ...
 	FILE *bin;
 	
-	if ((arq = fopen("jornal.txt", "r")) == NULL){
+	if ((arq = fopen("noticia.txt", "r")) == NULL){
 		printf("Arquivo nao pode ser aberto.\n");
 	}
-	if ((bin = fopen("jornal.bin", "wb")) == NULL){
+	if ((bin = fopen("noticia.bin", "wb")) == NULL){
 		printf("Arquivo nao pode ser aberto.\n");
 	}
 	else {
